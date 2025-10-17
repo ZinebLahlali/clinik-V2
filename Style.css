@@ -1,0 +1,720 @@
+ body {
+     margin: 0;
+ }
+
+ header {
+     padding: 10px;
+     height: 100vh;
+     background: url("/clinik-V2/images/background1.png") no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+
+ .about-u-s {
+     background: url("/clinik-V2/images/about-nav.png");
+ }
+
+ #main-one {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+
+ }
+
+ .nav {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     justify-self: center;
+     width: 26%;
+     display: flex;
+     gap: 30px;
+
+
+     /* border: 1px solid rebeccapurple; */
+ }
+
+ .nav li {
+     display: inline-block;
+     font-size: 15px;
+     padding: 10px;
+
+ }
+
+ .nav li a {
+     text-decoration: none;
+     color: white;
+
+ }
+
+ input {
+     background-color: transparent;
+     border: none;
+ }
+
+ input:focus {
+     border: none;
+     outline: none;
+ }
+
+ .bnt-serach {
+     background-color: transparent;
+     border: 2px solid black;
+     padding: 10px;
+     border-radius: 100px;
+     justify-content: space-between;
+
+     display: flex;
+ }
+
+ .logo {
+     position: flex;
+     left: 0;
+     top: 0;
+ }
+
+ .left-me {
+     border: 2px solid #5ee088;
+     width: 200px;
+     margin-left: 130px;
+     margin-top: 50px;
+     text-align: center;
+     color: white;
+     border-radius: 10px 10px 0px 10px;
+     background-color: #5ee088;
+ }
+
+ .med {
+     color: white;
+     margin-left: 130px;
+ }
+
+ .well {
+     margin-left: 130px;
+     color: white;
+ }
+
+ .back2 {
+     position: relative;
+     top: -24rem;
+     right: -42rem;
+     width: 31%;
+ }
+
+ .fas {
+     border-radius: 50%;
+     height: 25px;
+     width: 25px;
+     background-color: white;
+ }
+
+ .butt-on {
+     background-color: #FF6F61;
+     border-radius: 20px;
+     color: white;
+     display: flex;
+     align-items: center;
+     padding: 5px;
+     margin-left: 130px;
+     width: 100%;
+     justify-content: end;
+     gap: 15%;
+     border: none;
+     font-size: small;
+ }
+
+ .fleche {
+     width: 20%;
+
+ }
+
+ .or {
+     font-size: 16px;
+     font-weight: 600;
+     position: relative;
+     left: 52px;
+     top: 15px;
+     color: white;
+
+ }
+
+ .book-c {
+     background: transparent;
+     border-radius: 20px;
+     color: white;
+     display: flex;
+     align-items: center;
+     padding: 5px;
+     margin-left: 100px;
+     width: 65%;
+     text-align: center;
+     justify-content: center;
+     border: 1px solid white;
+
+ }
+
+
+ /* .test *{
+    border: 1px solid black;
+} */
+
+
+ .test {
+     /* position: absolute; */
+     /* top: 350px; */
+     display: flex;
+     padding: 0px;
+     /* gap: 2rem;     */
+     /* border: 1px solid black; */
+     width: 44%;
+
+ }
+
+ test>p {
+     text-align: center;
+ }
+
+ .icon1 {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     justify-self: center;
+     width: 26%;
+     display: flex;
+     gap: 30px;
+
+
+     /* border: 1px solid rebeccapurple; */
+ }
+
+ .icon1 ul {
+     display: flex;
+     font-size: 15px;
+     padding: 10px;
+ }
+
+ .remarque {
+     display: flex;
+ }
+
+ .serv-ices {
+     display: flex;
+ }
+
+ .serv-es {
+     display: flex;
+ }
+
+ .doc-tor {
+     display: flex;
+ }
+
+ .doc-or {
+     display: flex;
+ }
+
+ .hours {
+     display: flex;
+     justify-content: center;
+     width: 50%;
+     gap: 5%;
+ }
+
+ #clock {
+     position: relative;
+     top: 1em;
+     background-color: #269A7E;
+     width: 4%;
+     border-radius: 20px;
+     text-align: center;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 5%;
+ }
+
+ .p-hour {
+     position: relative;
+     top: 1em;
+     color: white;
+ }
+
+ .div-form {
+     position: relative;
+     border-radius: 2rem;
+     background-color: white;
+     display: flex;
+     width: 25%;
+     justify-content: center;
+     z-index: 1;
+     bottom: 34rem;
+     width: 40%;
+     /* padding: 1rem; */
+     height: 14rem;
+     left: -5rem;
+     align-items: center;
+ }
+
+ .div-for-parent {
+     display: flex;
+     justify-content: end;
+
+ }
+
+ .apoit {
+     /* display: flex; */
+     position: relative;
+     top: -40px;
+     border-radius: 20px;
+
+
+
+ }
+
+ #ios-select {
+     position: relative;
+     right: 90px;
+     border-radius: 20px;
+ }
+
+ #iod-select {
+     position: relative;
+     left: 90px;
+     border-radius: 20px;
+ }
+
+ .rev {
+     position: relative;
+     bottom: -40px
+ }
+
+ #time {
+     position: relative;
+     left: 90px;
+     border-radius: 20px;
+ }
+
+ #date {
+     position: relative;
+     right: 90px;
+     border-radius: 20px;
+ }
+
+ .butt-on4 {
+     position: relative;
+     top: 50px;
+     border-radius: 20px;
+     left: 15px;
+     width: 100%;
+     justify-content: center;
+     border: none;
+     background-color: #FF6F61;
+     color: white;
+     padding: 20px;
+
+
+ }
+
+ .blick {
+     position: relative;
+     top: 10px;
+     left: -4em;
+     padding: 4rem;
+     padding-right: -34em;
+ }
+
+
+ .do-se {
+     border: 2px solid #5ee088;
+     width: 200px;
+     left: 384px;
+     text-align: center;
+     color: white;
+     border-radius: 10px 0px 10px 10px;
+     background-color: #5ee088;
+     bottom: 20px;
+     position: relative;
+     bottom: 166px;
+     height: 57px;
+ }
+
+ .play-btn {
+     position: relative;
+     left: -21px;
+     bottom: -7px;
+     width: 53px;
+ }
+
+ .bil-d {
+     position: relative;
+     top: 23px;
+     left: 180px;
+     width: 78%;
+ }
+
+ .bil-d2 {
+     position: relative;
+     top: 50px;
+     left: 180px;
+     width: 60%;
+ }
+
+
+ .about-us {
+     display: flex;
+     justify-content: center;
+     justify-content: space-evenly;
+     margin-right: 0;
+     margin-left: 0;
+     background-image: url("/clinik-V2/images/about.png");
+     margin-left: 20px;
+ }
+
+ .div0 {
+     display: inline-block;
+     margin-left: 20%;
+ }
+
+
+ .Abou-t {
+     position: relative;
+     left: 45%;
+     background-color: #5ee088;
+     color: white;
+     width: fit-content;
+     padding: 5px;
+     border-radius: 18% 18% 0% 18%;
+
+
+ }
+
+ .m-are {
+     color: #3498DB;
+ }
+
+
+
+ .IMG {
+     display: flex;
+ }
+
+ .IMG-1 {
+     position: relative;
+     top: 1em;
+     left: -12px;
+     border: 2px solid green;
+     border-radius: 50%;
+     padding: 2px;
+ }
+
+ .IMG-2 {
+     position: relative;
+     top: 1em;
+     left: -5px;
+     padding: 2px;
+ }
+
+ .p-lorem {
+     border: 1px solid black;
+     width: 70%;
+     padding: 4px;
+ }
+
+ .butt-on2 {
+     /* position: relative; */
+     top: 10px;
+     border-radius: 20px;
+     left: 15px;
+     width: 30%;
+     border: none;
+     background-color: #FF6F61;
+     color: white;
+     text-align: center;
+     padding: 4px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+ }
+
+
+ .vice {
+     display: flex;
+     color: #3498DB;
+ }
+
+ .im-age {
+     width: 81px;
+ }
+
+ .remarque {
+     position: relative;
+
+     color: #3498DB;
+ }
+
+ .rem-aque {
+     position: relative;
+     ;
+     color: black;
+ }
+
+ .h1-p {
+     position: relative;
+     justify-content: space-evenly;
+     display: flex;
+ }
+
+ .span {
+     position: relative;
+     display: flex;
+     gap: 615px;
+ }
+
+ .ser-Vices {
+     background-image: url("/clinik-V2/images/about.png");
+     /* padding: 130px 120px; */
+     /* margin-left: 100px; */
+     /* margin-right: 20px; */
+     /* margin-right: 20px; */
+ }
+
+ .br-ns {
+     position: relative;
+     left: 10%;
+ }
+
+ .pa-ra {
+     position: relative;
+     right: 10%;
+ }
+
+ .serv-ices,
+ .serv-es {
+     position: relative;
+     justify-content: space-evenly;
+     display: flex;
+     gap: 2rem;
+     width: 25px;
+     left: 40px;
+ }
+
+ .dental {
+     position: relative;
+     border: 2px solid white;
+     border-radius: 15px;
+     background-color: white;
+     margin-top: 20px;
+ }
+
+ .our-service {
+     justify-content: center;
+     /* display: flex; */
+     /* justify-content: space-evenly; */
+
+     /* width: 45px; */
+ }
+
+ .but {
+     background-color: #ffff;
+     border-radius: 20px;
+     color: #FF6F61;
+     display: flex;
+     align-items: center;
+     padding: 5px;
+     margin-left: 130px;
+     width: 50%;
+     justify-content: center;
+     gap: 15%;
+     border: none;
+     font-size: small;
+ }
+
+ .paragraph {
+     color: #3498DB;
+ }
+
+ /* .im-g, .paragraph, .para-graph{
+    position: absolute;
+    left: 10px;
+} */
+ .logoo {
+     width: 172px;
+     height: 172px;
+     padding-right: 20px;
+
+ }
+
+ .footer {
+     display: grid;
+     grid-template-columns: repeat(4, 25%);
+     /* justify-content: space-evenly; */
+ }
+
+
+
+
+ .foo-ter {
+     margin-left: 300px;
+ }
+
+ .f-ooter {
+     margin-left: 189px;
+ }
+
+ .f-ooter2 {
+     margin-left: 80px;
+ }
+
+ .inder-footer {
+     text-decoration: none;
+     color: #3498DB white;
+ }
+
+ #em-ail {
+     border: 1px solid #3498DB;
+     border-radius: 20px;
+ }
+
+ #ba-s {
+     color: #969696;
+     width: 200px;
+ }
+
+ #sub {
+     border: 1px solid #3498DB;
+     border-radius: 20px;
+     background: transparent;
+     /* width: ; */
+ }
+
+ footer {
+     padding-left: 120px;
+     padding-right: 120px;
+     padding-top: 70px;
+     padding-bottom: 100px;
+ }
+
+ .email-address {
+     position: relative;
+
+
+ }
+
+ .par-footer {
+     display: flex;
+     flex-direction: column;
+     row-gap: 45px;
+ }
+
+ .brands {
+     display: flex;
+     gap: 14px;
+ }
+
+ .brands {
+     color: #3498DB;
+ }
+
+ .butt-on5 {
+     background-color: #ffff;
+     border-radius: 20px;
+     color: #FF6F61;
+     display: flex;
+     align-items: center;
+     padding: 5px;
+     margin-left: 449px;
+     width: 20%;
+     justify-content: center;
+     gap: 15%;
+     border: none;
+     font-size: small;
+     bottom: 20px;
+ }
+
+ .but {
+     background-color: #ffff;
+     border-radius: 20px;
+     color: #FF6F61;
+     display: flex;
+     align-items: center;
+     padding: 5px;
+     margin-left: 130px;
+     border: 1px solid black;
+     justify-content: center;
+     gap: 15%;
+     border: none;
+     font-size: small;
+ }
+
+ .A-B-C {
+     padding-right: 200px;
+
+
+ }
+
+ .parent-services {
+     position: relative;
+     right: -60px;
+ }
+
+ .doc-tor {
+     display: grid;
+     grid-template-columns: repeat(4, 25%);
+     justify-content: space-evenly;
+     right: -60px;
+ }
+
+ .doc-or1 {
+     display: grid;
+     grid-template-columns: repeat(4, 25%);
+     justify-content: space-evenly;
+     right: -60px;
+ }
+
+ .our-doctors {
+     width: 100%;
+     display: inline-block;
+     justify-content: center;
+     text-align: center;
+ }
+ .doc-tor{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    left: 20px;
+    padding-left: 20px;
+ }
+ .doc-or1{
+    /* border: 1px solid black; */
+     display: flex;
+    justify-content: space-evenly;
+    left: 20px;
+    padding-left: 20px;
+ }
+ .oc-photo{
+    background-image: url("/clinik-V2/images/Card.png");
+     position: relative;
+     /* border: 2px solid white; */
+     /* border-radius: 15px; */
+     background-color: white;
+     margin-top: 20px;
+ }
+ .div-doct{
+    /* color: #3498DB; */
+    padding-left: 20px;
+    margin-left: 50px;
+ }
+ .paragraph, .doc-t{
+    color: #3498DB;
+ }
+ .pa-ra-graph{
+    color: #FF6F61;
+ }
+ .now{
+    display: flex;
+    align-items: center;
+    
+
+ }
