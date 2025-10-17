@@ -18,6 +18,7 @@
      display: flex;
      justify-content: space-around;
      align-items: center;
+     
 
  }
 
@@ -331,7 +332,7 @@
      left: 384px;
      text-align: center;
      color: white;
-     border-radius: 10px 0px 10px 10px;
+     border-radius: 20px 0px 20px 20px;
      background-color: #5ee088;
      bottom: 20px;
      position: relative;
@@ -384,7 +385,7 @@
      color: white;
      width: fit-content;
      padding: 5px;
-     border-radius: 18% 18% 0% 18%;
+     border-radius: 20px 20px 0px 20px;
 
 
  }
@@ -635,14 +636,13 @@
 
  .but {
      background-color: #ffff;
-     border-radius: 20px;
+     border-radius: 20px #ff6f61;
      color: #FF6F61;
      display: flex;
      align-items: center;
      padding: 5px;
-     margin-left: 130px;
-     border: 1px solid black;
-     justify-content: center;
+     margin-left: 71px;
+     justify-content: space-evenly;
      gap: 15%;
      border: none;
      font-size: small;
@@ -712,9 +712,64 @@
  .pa-ra-graph{
     color: #FF6F61;
  }
- .now{
+ .butt-on3{
+    
+     border-radius: 20px;
+     width: 16%;
+     border: none;
+     background-color: #FF6F61;
+     color: white;
+     text-align: center;
+     padding: 4px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     position: relative;
+     left: 44%;
+     bottom: 20px;
+    
+ }
+ .mit-tel{
+    position: relative;
+    padding: 20px;
+    width: 80%;
+    margin-left: 20px;
+
+    
+ }
+ 
+.d-i-v {
+    position: relative;
+    display: inline-block; 
+}
+
+.mit-tel {
+    display: block;
+    width: 100%;   
+    height: auto;
+}
+
+.text-over {
+    position: absolute;
+    top: 25%;         
+    left: 90px;
+    z-index: 10;
+    max-width: 80%; 
+}
+
+.text-over h1 {
+    margin: 0 0 10px 0;
+}
+
+.text-over p {
+    margin: 0 0 20px 0;
+}
+
+.text-over button.now {
     display: flex;
     align-items: center;
-    
+    gap: 10px;
+}
 
- }
+  
