@@ -2,23 +2,29 @@
      margin: 0;
  }
 
- header {
+ /* header {
+     padding: 10px;
+     height: 100vh;
+     background: url("/clinik-V2/images/background1.png") no-repeat;
+     background-position: center;
+     background-size: cover;
+ } */
+ .home-header {
      padding: 10px;
      height: 100vh;
      background: url("/clinik-V2/images/background1.png") no-repeat;
      background-position: center;
      background-size: cover;
  }
-
- .about-u-s {
-     background: url("/clinik-V2/images/about-nav.png");
+ .common_header {
+    background: url("/clinik-V2/images/background1.png") no-repeat;
  }
 
  #main-one {
      display: flex;
      justify-content: space-around;
      align-items: center;
-     
+
 
  }
 
@@ -72,6 +78,7 @@
      position: flex;
      left: 0;
      top: 0;
+     z-index: 1000;
  }
 
  .left-me {
@@ -155,18 +162,12 @@
  }
 
 
- /* .test *{
-    border: 1px solid black;
-} */
 
 
  .test {
-     /* position: absolute; */
-     /* top: 350px; */
+
      display: flex;
      padding: 0px;
-     /* gap: 2rem;     */
-     /* border: 1px solid black; */
      width: 44%;
 
  }
@@ -328,7 +329,7 @@
 
  .do-se {
      border: 2px solid #5ee088;
-     width: 200px;
+     width: 151px;
      left: 384px;
      text-align: center;
      color: white;
@@ -337,8 +338,9 @@
      bottom: 20px;
      position: relative;
      bottom: 166px;
-     height: 57px;
+     height: 53px;
  }
+
 
  .play-btn {
      position: relative;
@@ -380,13 +382,23 @@
 
  .Abou-t {
      position: relative;
-     left: 45%;
+     background-color: #5ee088;
+     color: white;
+     left: 0%;
+     width: fit-content;
+     padding: 5px;
+     border-radius: 20px 20px 0px 20px;
+
+ }
+
+ .Abo-ut {
+
+     position: relative;
      background-color: #5ee088;
      color: white;
      width: fit-content;
      padding: 5px;
      border-radius: 20px 20px 0px 20px;
-
 
  }
 
@@ -423,7 +435,6 @@
  }
 
  .butt-on2 {
-     /* position: relative; */
      top: 10px;
      border-radius: 20px;
      left: 15px;
@@ -571,6 +582,8 @@
  .inder-footer {
      text-decoration: none;
      color: #3498DB white;
+     display: flex;
+     bottom: 600px;
  }
 
  #em-ail {
@@ -603,6 +616,7 @@
 
  }
 
+
  .par-footer {
      display: flex;
      flex-direction: column;
@@ -619,23 +633,47 @@
  }
 
  .butt-on5 {
-     background-color: #ffff;
-     border-radius: 20px;
-     color: #FF6F61;
-     display: flex;
-     align-items: center;
-     padding: 5px;
-     margin-left: 449px;
-     width: 20%;
-     justify-content: center;
-     gap: 15%;
-     border: none;
-     font-size: small;
-     bottom: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background: #FF6F61;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+
  }
 
+.center-div {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100px; 
+}
+ 
+.icon-circle {
+  background: white;
+  color: #f44a01; 
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-background {
+    background-color: hsl(249, 86%, 36%);
+    border: #E3FAFF;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
  .but {
-     background-color: #ffff;
+     background-color: #ffffff;
      border-radius: 20px #ff6f61;
      color: #FF6F61;
      display: flex;
@@ -679,97 +717,355 @@
      justify-content: center;
      text-align: center;
  }
- .doc-tor{
-    /* border: 1px solid black; */
-    display: flex;
-    justify-content: space-evenly;
-    left: 20px;
-    padding-left: 20px;
- }
- .doc-or1{
-    /* border: 1px solid black; */
+
+ .doc-tor {
+     /* border: 1px solid black; */
      display: flex;
-    justify-content: space-evenly;
-    left: 20px;
-    padding-left: 20px;
+     justify-content: space-evenly;
+     left: 20px;
+     padding-left: 20px;
  }
- .oc-photo{
-    background-image: url("/clinik-V2/images/Card.png");
+
+ .doc-or1 {
+     /* border: 1px solid black; */
+     display: flex;
+     justify-content: space-evenly;
+     left: 20px;
+     padding-left: 20px;
+ }
+
+ .oc-photo {
+     background-image: url("/clinik-V2/images/Card.png");
      position: relative;
      /* border: 2px solid white; */
      /* border-radius: 15px; */
      background-color: white;
      margin-top: 20px;
  }
- .div-doct{
-    /* color: #3498DB; */
-    padding-left: 20px;
-    margin-left: 50px;
+
+ .div-doct {
+     /* color: #3498DB; */
+     padding-left: 20px;
+     margin-left: 50px;
  }
- .paragraph, .doc-t{
-    color: #3498DB;
+
+ .paragraph,
+ .doc-t {
+     color: #3498DB;
  }
- .pa-ra-graph{
-    color: #FF6F61;
+
+ .pa-ra-graph {
+     color: #FF6F61;
  }
- .butt-on3{
-    
+
+ .butt-on3 {
+
      border-radius: 20px;
-     width: 16%;
+     width: 21%;
      border: none;
      background-color: #FF6F61;
      color: white;
      text-align: center;
-     padding: 4px;
      display: flex;
      align-items: center;
      justify-content: center;
      gap: 10px;
      position: relative;
-     left: 44%;
-     bottom: 20px;
-    
+     padding-left: 30px;
+     padding-right: 20px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     left: 42%;
+
+
+
  }
- .mit-tel{
-    position: relative;
-    padding: 20px;
-    width: 80%;
-    margin-left: 20px;
 
-    
+ .mit-tel {
+     position: relative;
+     padding: 20px;
+     width: 80%;
+     margin-left: 20px;
+     display: block;
+     width: 80%;
+     height: auto;
+     margin-left: 70px;
+     top: 0px;
+
  }
- 
-.d-i-v {
-    position: relative;
-    display: inline-block; 
-}
 
-.mit-tel {
-    display: block;
-    width: 100%;   
-    height: auto;
-}
+ .d-i-v {
+     position: relative;
+     display: inline-block;
+ }
 
-.text-over {
-    position: absolute;
-    top: 25%;         
-    left: 90px;
-    z-index: 10;
-    max-width: 80%; 
-}
 
-.text-over h1 {
-    margin: 0 0 10px 0;
-}
 
-.text-over p {
+ .text-over {
+     position: absolute;
+     top: 15%;
+     left: 135px;
+     z-index: 10;
+     max-width: 80%;
+ }
+
+ .text-over {
+     margin: 0 0 10px 0;
+     color: white;
+ }
+
+ /* .text-over p {
     margin: 0 0 20px 0;
-}
+} */
 
-.text-over button.now {
+ .text-over button.now {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+ }
+
+ .now {
+     background-color: #E3FAFF;
+     border: 1px solid black;
+     border-radius: 20px;
+     color: #2677BC;
+     position: relative;
+     padding-left: 30px;
+     padding-right: 20px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+ }
+
+ .prend-rende-vous {
+     background-image: url(/clinik-V2/images/background1.png);
+     position: relative;
+     padding-inline: 300px;
+     padding-block: 17px;
+     display: flex;
+     justify-content: center;
+ }
+
+
+ .back-ground {
+     background-image: url("/clinik-V2/images/rende-vous-background.png");
+     width: 50%;
+     display: flex;
+     justify-content: center;
+     padding-inline: 300px;
+     padding-block: 17px;
+     margin-top: 30px;
+     border-radius: 20px;
+     /* position: relative;
+    left: -8rem; */
+
+
+
+ }
+
+ #ren-de {
+     display: flex;
+     border: 1px solid black;
+     border-radius: 20px;
+     width: 215px;
+     height: 54px;
+     justify-content: center;
+     color: white;
+     background-color: #5ee088;
+ }
+
+ #your {
+     color: #3498DB;
+     border: 1px solid black;
+     width: 120%;
+     border: none;
+ }
+
+ .nom-email,
+ .date-time {
+     display: grid;
+     grid-template-columns: repeat(2, 50%);
+     gap: 20px;
+
+ }
+
+ #userName {
+     color: black;
+ }
+
+ #userName,
+ #userDate,
+ #userTime,
+ #userEmail {
+     border: 1px solid black;
+     border-radius: 20px;
+     width: 275px;
+     height: 35px;
+     padding-block: 16px;
+     padding-inline: 24px;
+     margin-top: 30px;
+ }
+
+ #userDescription {
+     display: flex;
+     border: 1px solid black;
+     border-radius: 20px;
+     height: 140px;
+     width: 706px;
+     padding: 17px;
+     margin-top: 30px;
+
+ }
+
+ .send {
+     display: flex;
+     border: 1px solid black;
+     border-radius: 20px;
+     background-color: #FF6F61;
+     color: white;
+     justify-content: center;
+     width: 706px;
+     padding-block: 17px;
+     margin-top: 30px;
+
+ }
+
+ #pricing {
+     display: flex;
+     border: 1px solid black;
+     border-radius: 20px 20px 0px 20px;
+     width: 105px;
+     height: 48px;
+     margin-left: 100px;
+     justify-content: center;
+     color: white;
+     background-color: #5ee088;
+
+ }
+
+ #pick {
+     display: flex;
+     margin-left: 100px;
+     color: #3498DB;
+ }
+
+ .pri-cing {
+     display: flex;
+     justify-content: space-between;
+
+
+ }
+
+ #p-lorem {
+     width: 33%;
+     margin-top: 42px;
+     margin-right: 10rem;
+ }
+
+ #joi-n {
+     color: #2677BC;
+     padding-left: 3rem;
+ }
+
+ #par-lorem {
+     display: flex;
+     margin-right: 8rem;
+     justify-content: flex-start;
+ }
+
+ .div-parent {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .room-card {
+     border: 2px solid black;
+     width: 28%;
+ }
+
+ .reco {
+     font-size: large;
+     position: relative;
+     top: -7px;
+ }
+
+
+ .lorem {
+     padding-left: 3em;
+ }
+
+ .person {
+    color: black;
+    font-size: small;
+    font-family: "system-ui";
+    
+ }
+
+
+ .prix {
+     color: #3498DB;
+     padding-left: 44px;
+ }
+ .feature{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
+    margin-left: 10%;
+ }
+ .features{
+    color: #3498DB;
+    font-size: large;
+    margin-left: 5%;
+ }
+ .beseid{
+    color: #5B5B5B;
+ }
+ .fa-solid{
+color: #5ee088; 
+}
+#M-o-re{
+    border: 1px solid #FF6F61;
+    border-radius: 40px;
+    color: #FF6F61;
+    background-color: white;
+    /* position: relative; */
+    /* align-items: center; */
+     width: 40vh;
+     padding-block: 17px;
+     margin-top: 30px;
+    padding-left: 40px;
 }
 
-  
+#M-o-r{
+    border: 1px solid #FF6F61;
+    border-radius: 40px;
+    color: white;
+    background-color: #FF6F61;
+    display: flex;
+    /* justify-content: center; */
+    left: 10rem;
+    width: 40vh;
+    padding-block: 17px;
+     margin-top: 30px;
+    padding-left: 70px;
+    top: 10px;
+
+}
+.room-actions{
+    /* display: block; */
+    display: grid;
+   place-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    /* top: 0%;
+    left: 0%; */
+    text-align: center;
+     bottom: 8px;
+   
+}
+#o-r{
+    color: #969696;
+
+}
+
